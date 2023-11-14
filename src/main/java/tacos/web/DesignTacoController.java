@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import lombok.extern.slf4j.Slf4j;
-import tacos.Ingredient;
-import tacos.Taco;
-import tacos.TacoOrder;
+import tacos.data.*;
 
 @Slf4j
 @Controller
