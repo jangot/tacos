@@ -11,12 +11,4 @@ public class TakoCloudApplication {
     public static void main(String[] args) {
         SpringApplication.run(TakoCloudApplication.class, args);
     }
-
-    @Controller
-    public static class HomeController {
-        @GetMapping("/")
-        public String home() {
-            return "home";
-        }
-    }
 }
